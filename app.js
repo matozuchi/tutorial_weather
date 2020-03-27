@@ -18,7 +18,7 @@ app.use(express.static(publicPath))
 
 app.get('', (req, res) => {
     res.render('index', {
-        content: 'INDEX'
+        content: 'Weather forcast'
     })
 })
 
